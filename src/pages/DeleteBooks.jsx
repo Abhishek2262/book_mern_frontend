@@ -13,7 +13,7 @@ const DeleteBooks = () => {
  const handleDeleteBook = () => {
    setLoading(true);
    axios
-     .delete(`http://localhost:3000/books/${id}`)
+     .delete(`https://book-mern-stack-backend.onrender.com/books/${id}`)
      .then(()=>{
        setLoading(false);
        enqueueSnackbar('Book Delete sucessfully', {variant:'success'}); // Corrected here

@@ -19,7 +19,7 @@ const EditBook = () => {
 
   useEffect(()=>{
     setLoading(true);
-    axios.get(`http://localhost:3000/books/${id}`)
+    axios.get(`https://book-mern-stack-backend.onrender.com/books/${id}`)
     .then((response)=>{
       setAuthor(response.data.author);
       setPublishYear(response.data.publishYear);
@@ -38,16 +38,16 @@ const EditBook = () => {
     };
     setLoading(true);
     axios
-      .put(`http://localhost:3000/books/${id}`, data)
+      .put(`https://book-mern-stack-backend.onrender.com/books/${id}`, data)
       .then(()=>{
         setLoading(false);
-        equeueSnackbar('Book Edit sucessfully', {variant:'Success'});
+        enqueueSnackbar('Book Edit sucessfully', {variant:'Success'});
         navigate('/');
       })
       .catch((error)=>{
           setLoading(false);
           // alert('An error happened. please check console ');
-          equeueSnackbar('Error', {variant: 'error'});
+          enqueueSnackbar('Error', {variant: 'error'});
           console.log(error);
       });
   };

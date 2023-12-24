@@ -12,7 +12,7 @@ const ShowBook = () => {
  useEffect(()=>{
    setLoading(true);
    axios
-     .get(`http://localhost:3000/books/${id}`) // Now id is defined
+     .get(`https://book-mern-stack-backend.onrender.com/books/${id}`) // Now id is defined
      .then((response)=>{
        setBooks(response.data);
        setLoading(false);
