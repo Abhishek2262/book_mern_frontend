@@ -41,7 +41,7 @@ const EditBook = () => {
       .put(`https://book-mern-stack-backend.onrender.com/books/${id}`, data)
       .then(()=>{
         setLoading(false);
-        enqueueSnackbar('Book Edit sucessfully', {variant:'success'});
+        enqueueSnackbar('Book Edit sucessfully', {variant:'success'})
         navigate('/');
       })
       .catch((error)=>{
