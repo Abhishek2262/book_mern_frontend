@@ -29,7 +29,7 @@ function BookModal({ book, onClose }) {
        </div>
        <p className="mt-4"> Anything you want to show</p>
          <p className="my-2">
-         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt dolor minima quis laborum vero ducimus libero a alias, repudiandae nam maiores magnam impedit consequatur, quaerat molestias. Nesciunt veniam et voluptatum natus delectus, cupiditate est aspernatur maxime repellat numquam mollitia atque tenetur perspiciatis, sed blanditiis doloremque necessitatibus illo quae? Voluptas.
+         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt dolor minima quis laborum vero ducimus libero a alias, repudiandae nam maiores magnam impedit consequatur, quaerat molestias. Nesciunt veniam eh hih ihvd hvd gt voluptatum natus delectus, cupiditate est aspernatur maxime repellat numquam mollitia atque tenetur perspiciatis, sed blanditiis doloremque necessitatibus illo quae? Voluptas.
          </p>
      </div>
    </div>
